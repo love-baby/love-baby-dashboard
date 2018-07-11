@@ -12,11 +12,11 @@ import org.springframework.web.servlet.ModelAndView;
 /**
  * @author 23770
  */
+@Controller
 @EnableDiscoveryClient
 @SpringCloudApplication
 @EnableHystrixDashboard
 @EnableTurbine
-@Controller
 public class DashboardApplication {
 
     public static void main(String[] args) {
